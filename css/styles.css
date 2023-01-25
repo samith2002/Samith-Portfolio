@@ -1,0 +1,378 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+
+#title {
+    /* background-color: #ff4c68; */
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.hirebtn{
+    margin-top: 20px;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 530;
+    width:   100%;
+    display: inline-block;
+}
+
+#title {
+    color: #fff;
+}
+
+
+/* Color title */
+
+.c-work__title {
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;;
+    margin-top: 80px;
+}
+
+.container-fluid {
+
+    padding: 3% 15% 19%;
+    /* top  left & right bottom*/
+}
+
+/* Lotti anim */
+.devlottie{
+    
+    text-align: center;
+}
+
+.dolottie{
+    text-align: center;
+    /* display: inline-block; */
+}
+
+
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+/* #playbtn {
+    margin-left: 20px;
+} */
+
+/* #mockup {
+    width: 75%;
+    transform: rotate(25deg);
+} */
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
+
+
+
+
+/* responsive for mobile */
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .devlottie{
+        text-align: center;
+    }
+    .dolottie{
+        text-align: center;
+    }
+    .flutterlottie{
+        text-align: center;
+    }
+    .webdevlottie{
+        text-align: center;
+    }
+    .javalottie{
+        text-align: center;
+    }
+    .bloglottie{
+        text-align: center;
+    }
+    .contactlottie{
+        text-align: center;
+    }
+}
+
+/* Skills section */
+
+#skills{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.skillstitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3.9rem;
+    text-align: center;
+    color: #1e836c;
+    line-height: 2;
+    
+}
+
+.skillspara{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    width: 100%;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.skillscol{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.skill2col{
+    padding: 7% 3%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.fluttitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1e836c;
+
+}
+.fluttpara{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    /* width: 50%; */
+    color: #000;
+    letter-spacing: 1px;
+    /* margin-left: 25%; */
+    padding: 3% 3%;
+    text-align: center;
+
+}
+
+.flutterlottie{
+    margin: 3% 7%;
+    text-align: center;
+}
+
+.skill3col{
+    padding: 7% 3%;
+    text-align: center;
+    margin-top: 0;
+}
+.webdevtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1e836c;
+}
+
+.webdevpara{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 3% 3%;
+    text-align: center;
+
+}
+
+.webdevlottie{
+    text-align: center;
+    margin: 3% 7%;
+}
+
+.skill4col{
+    padding: 7% 3%;
+    text-align: center;
+
+}
+
+.javatitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1e836c;
+
+}
+
+.javapara{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 3% 3%;
+    text-align: center;
+}
+
+
+.javalottie{
+    text-align: center;
+    margin: 3% 7%;
+}
+
+/* projects */
+#projects{
+    background-color: #000;
+    width: 100%;
+}
+.projecttite{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    margin-top: 25%;
+    text-decoration: underline;
+    text-decoration-color: red
+}
+
+.cardparent{
+    padding: 7% 10%;
+    
+}
+
+.card-img-top{
+    width: 280px;
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.covidimg{
+    width: 290px;
+}
+
+/* Blogs para */
+
+#blogs{
+    background-color: white;
+    width: 100%;
+}
+
+.blogtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3.0rem;
+    text-align: center;
+    color: #1e836c;
+}
+
+.blogpara{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 3% 3%;
+    text-align: center;
+}
+
+.bloglottie{
+    text-align: center;
+    margin: 3% 7%;
+}
+
+/* contact */
+
+#contact{
+    background-color: #000;
+    width: 100%;
+}
+
+.contacttitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3.0rem;
+    text-align: center;
+    color:white;
+}
+
+
+
+.contactpara{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: gray;
+    letter-spacing: 1px;
+    padding: 3% 3%;
+    text-align: center;
+}
+
+.contactlottie{
+    text-align: center;
+    margin: 3% 7%;
+
+}
+
+.contacti{
+    margin: 3% 1.5%;
+    text-align: center;
+    color: white;
+}
+
+.contacti:hover{
+    color: #A86E20;
+}
+
